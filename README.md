@@ -74,15 +74,6 @@ ROS Integration
 - hand_gesture_node
 - multi_point_nav_node
 
-🚀 Launch Configuration
-
-Example launch workflow:
-
-ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/jjjmap.yaml
-ros2 run multi_point_nav multi_point_nav
-ros2 run hand_gesture_node hand_gesture_node
-
-
 Custom launch file combines:
 - navigation2.launch.py
 - multi_point_nav_node
@@ -97,6 +88,7 @@ Custom launch file combines:
 - Stop navigation
 
 🎥 Video Demonstration
+https://youtu.be/Uw6x6yV6_6k?si=UW3o-mwzbli-Bdvc
 
 📚 Key Learning Outcomes
 - ROS 2 distributed system design
